@@ -15,6 +15,9 @@
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="/todos/list">List</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/ajax">Ajax</a>
+                </li>
             </ul>
         </div>
     </div>

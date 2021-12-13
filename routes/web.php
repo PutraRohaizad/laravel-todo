@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\AjaxController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TodoController;
 
@@ -20,3 +21,4 @@ Route::get('/', function () {
 
 Route::get('/todos/list', [TodoController::class, 'list'])->name('todos.list');
 Route::resource('todos', TodoController::class);
+Route::resource('ajax', AjaxController::class);
